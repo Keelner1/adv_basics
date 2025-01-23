@@ -16,7 +16,8 @@ class ResultsScreen extends StatelessWidget{
         });
         if(true){
           
-        }else{
+        }
+        if(true){
           
         }
     }

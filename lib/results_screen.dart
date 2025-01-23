@@ -14,12 +14,6 @@ class ResultsScreen extends StatelessWidget{
         'correct_answer':questions[i].answers[0],
         'user_answer':chosenAnswers[i]
         });
-        if(true){
-          
-        }
-        if(true){
-          
-        }
     }
     return summary;
   }

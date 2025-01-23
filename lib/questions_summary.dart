@@ -8,7 +8,8 @@ class QuestionsSummary extends StatelessWidget{
   Widget build(BuildContext context) {
     return Column(children:summaryData.map((data){
       return Row(children: [
-        Text(((data['question_index'] as int) +2).toString())
+        Text(((data['question_index'] as int) +1).toString()),
+        const Text('nigga')
       ],);
     }).toList(),
     );
